@@ -108,7 +108,11 @@ export default function InputComponent(){
                         name= "tag"
                         style={input}
                       />
-                      <FiPlusSquare onClick={handleSubmittion} style={plusIcon} onPointerEnter={()=>setPointer(true)} onPointerLeave={()=>setPointer(false)} />
+                      <FiPlusSquare 
+                        onClick={handleSubmittion} 
+                        style={plusIcon}
+                        onPointerEnter={()=>setPointer(true)} 
+                        onPointerLeave={()=>setPointer(false)} />
                    </div>
 
 
